@@ -1,5 +1,6 @@
 import 'formdata-polyfill';
 import 'dark-mode-switch';
+import 'whatwg-fetch';
 import {nameToQuestionaireJP} from './nameToQuestionaireJP.js'
 import {nameToQuestionaireEN} from './nameToQuestionaireEN.js'
 // node-modules を Git の管理対象から除外しているので、ここで dark-mode-switch の CSS を読み込んでおく
@@ -361,7 +362,7 @@ function checkDiscordLimit(postsText) {
   //------------------------------------------------------------------------------------------
   // "input" イベントに投稿文をリアルタイムで作成する処理などを割り当て
   //-----------------------------------------------------------------------------------------
-  document.getElementById("questionForm").addEventListener("input", (e) => { 
+  document.getElementById("questionForm").addEventListener("change", (e) => { 
 
     //------------------------------------------------------------------------------------------
     // 入力内容に応じてラジオボックスなどの使用可否を切り替える
