@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	${require('/common/_head.html') pageTitle=""}
+</head>
+<body class="bg-light">
+  <div class="container" id="container">
+		${require('/common/_header.html')}
+
+    <div class="m-0 p-3">
+      <div class="border rounded mt-1 mb-1 p-3 bg-light shadow-sm">
+        <p class="fw-bold fs-5">組み立てに関する問題</p>
+        <a class="btn btn-primary text-white fs-6" href="./buildProblem.html" role="button">
+          組み立てたけど入力が出来ない、LEDが点灯しないなどの問題はこちらのページへ
+        </a>
+      </div>
+      <div class="border rounded mt-1 mb-1 p-3 bg-light shadow-sm">
+        <p class="fw-bold fs-5">ファームウェアに関する問題</p>
+        <a class="btn btn-primary text-white fs-6" href="./firmwareProblem.html" role="button">
+          ファームウェアの書き込み、ビルド、環境構築の問題はこちらのページへ
+        </a>
+      </div>
+      <div class="border rounded mt-1 mb-1 p-3 bg-light shadow-sm">
+        <p class="fw-bold fs-5">BLE Micro Pro に関する問題</p>
+        <a class="btn btn-primary text-white fs-6" href="./BLEProblem.html" role="button">
+          BLE Micro Pro で Bluetooth 接続が出来ないなどの問題はこちらのページへ
+        </a>
+      </div>
+      <div class="border rounded mt-1 mb-1 p-3 bg-light shadow-sm">
+        <p class="fw-bold fs-5">設計に関する問題</p>
+          <a class="btn btn-primary text-white fs-6" href="./designProblem.html" role="button">
+            キーボード設計に関する相談や質問はこちらのページへ
+          </a>
+      </div>
+      <div class="border rounded mt-1 mb-1 p-3 bg-light shadow-sm">
+        <p class="fw-bold fs-5">その他の問題</p>
+        <a class="btn btn-primary text-white fs-6" href="./otherProblem.html" role="button">
+          上記以外の問題はこちらのページへ
+        </a>
+      </div>
+    </div>
+  </div>
+
+	${require('/common/_footer.html')}
+</html>
