@@ -20,7 +20,7 @@
     "@babel/preset-env": "^7.18.2",
     "@biomejs/biome": "^1.8.3",
     "babel-loader": "^8.2.5",
-    "copy-webpack-plugin": "^11.0.0",
+    "copy-webpack-plugin": "^14.0.0",
     "css-loader": "^6.7.1",
     "html-includes": "^4.4.1",
     "html-loader": "^3.1.0",
